@@ -1,0 +1,194 @@
+header{
+    background: #ffffff;
+    background-image: url(https://www.cierqueretaro.org.mx/images/Lineas_Poligonales_CIERMMI2019_v4.png);
+    width: auto;
+}
+
+.main{
+    background: #ffffff;
+}
+/*.cuerpo{
+    background-image: url(../images/BG_Mapa_CIERMMI.png);
+    #9b9b9b
+}*/
+.color1{
+    background: #0d4671;
+    color: #fff;
+}
+.color2{
+    background: #0d4671;
+}
+.color3{
+    opacity: 0.3;
+}
+
+aside{
+    background: #ffffff;
+}
+
+footer{
+    /*background: #004a8e;*/
+    background: #ffffff;
+    background-image:url(https://www.cierqueretaro.org.mx/images/Lineas_Poligonales_CIERMMI2019_v2.png);
+}
+h1{
+   color: #008B8B;/*Color de letras del encabezado*/
+   font-family:'Josefin Sans', sans-serif;
+}
+
+h2{
+  color: #3CB371;/*Color de letras del encabezado*/
+   font-family:'Josefin Sans', sans-serif;
+}
+h3{
+    color: #008B8B;
+    font-family: 'Vidaloka', serif;
+}
+h4{
+    color: #0d4671;
+    font-family: 'Vidaloka', serif;
+}
+h5{
+    color: black;
+   font-family: 'Cantata One', serif;
+}
+h6{
+   color: black;
+   font-family: 'Cantata One', serif;
+}
+a{
+    color: #0d4671;
+}
+a:hover{
+    color: #0d4671;
+}
+p{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+li{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+td{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+
+.navbar-default .navbar-brand {
+  color: #008B8B;/*Color del texto inicio en el menu*/
+  
+   font-family: 'Cantata One', serif; 
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #3CB371;/*Color del focus del texto inicio en el menu*/
+}
+.navbar-default .navbar-text {
+  color: blue;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #008B8B;/*Color de las opciones del menu de la pagina*/
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #3CB371;/*Color del focus de las opciones del menu*/
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #3CB371;
+  background-color: #F5FFFA;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #F5FFFA;/*Color de cuando se da click en un submenu*/
+  background-color:#F5FFFA;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #008B8B;/*Color de los textos cuando se despliega submenu*/
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #3CB371;/*Color del focus del texto de submenu*/  
+}
+.navbar-default .navbar-toggle {
+  border-color: #F5FFFA;/*Color del contorno menu resposive*/
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #F5FFFA;/*Color del activate del menu resposive*/
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:#3CB371;/*Color de las barras del menu responsive*/
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #008B8B;/*Color de la barra del menu responsive*/
+}
+.navbar-default .navbar-link {
+  color: #008B8B;
+}
+.navbar-default .navbar-link:hover {
+  color: #3CB371;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #008B8B;/*Color de las letras cuando se despliega submenu*/
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #3CB371;/*Color del focus del texto de submenu*/
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #3CB371;
+    background-color: #F5FFFA;
+  }
+}
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 8s infinite alternate linear;
+}
+
+.slider li {
+	width: 400%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}  
+}
+
+
+/*lllllllllllllllllll*/
+
